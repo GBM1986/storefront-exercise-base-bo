@@ -14,11 +14,19 @@ function initApp(){
 
     getProductCategories().then((categories)=>{
       
-       console.log(categories);
+        buildCategories(categories, "categoriesNav");
 
     });
     
 }
+
+function buildCategories(categoreyArray, elementId) { 
+    console.log(categoreyArray, elementId);
+    
+}
+
+
+
 
 
 
