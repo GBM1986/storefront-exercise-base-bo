@@ -31,12 +31,12 @@ footer{
     display: inline-block;
     border: 2px solid black;
     border-radius: 1em;
-  width: 20em;
-margin: 1em;
+    width: 20em;
+    margin: 1em;
   
 }
 
 .productCard img{
-  
+    cursor: pointer;
     width: 90%;
 }
