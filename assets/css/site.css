@@ -1,0 +1,42 @@
+
+header{
+    width: 100%;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    height: 6rem;
+    padding: 0.7rem;
+}
+
+header h1{
+    text-transform: uppercase;
+}
+footer{
+    width: 100%;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    height: 4rem;
+    padding: 0.7rem; 
+}
+
+/*products*/
+
+#productDisplay section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.productCard{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 1em;
+  width: 20em;
+margin: 1em;
+  
+}
+
+.productCard img{
+  
+    width: 90%;
+}
